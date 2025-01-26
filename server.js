@@ -79,6 +79,7 @@ const initializeModelAndStartServer = async () => {
   // Start the server after ensuring a model is ready
   app.listen(port, () => {
     console.log(`Server running at http://localhost:${port}`);
+    console.log(`To close there server correctly: Control (^) + C`);
   });
 };
 
