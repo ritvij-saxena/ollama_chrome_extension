@@ -92,3 +92,16 @@ To use the extension in Chrome, follow these steps:
 
 - **Ollama server is not running**: Make sure the **Ollama** server is running at `http://localhost:11434` before using the extension.
 - **Error with port or request failed**: If you get an error, it might be due to an issue with the server setup. Ensure the server is running and the correct ports are open.
+
+  
+## Screen Recording 
+- If the local server `http://localhost:8080` (managed by `server.js`) is up and running successfully!
+
+https://github.com/user-attachments/assets/cab4fd37-9f96-444f-800c-e2eaa9749800
+
+- If the local server `http://localhost:8080` (managed by `server.js`) is **NOT** up and running successfully *X*
+
+https://github.com/user-attachments/assets/5a7feac9-c9e6-46da-88d5-cd7f8c9fcf66
+
+
+
