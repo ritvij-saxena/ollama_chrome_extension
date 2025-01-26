@@ -60,6 +60,7 @@ Follow these steps to set up the extension:
 
    Using available model: mistral:latest
    Server running at http://localhost:8080
+   To close there server correctly: Control (^) + C
    ```
 
    The script will automatically choose a local model. If no models are found, it will download the "mistral" model and use it for prompts.
