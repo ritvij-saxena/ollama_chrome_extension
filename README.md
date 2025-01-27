@@ -26,6 +26,13 @@ For this to work, you need to have **Ollama** installed locally on your system.
 
 - **Download Ollama**: You can get it from [Ollama](https://ollama.com/).
 - After installation, **Ollama** runs on `http://localhost:11434`.
+- Make sure `node --version >= v22.11.0` and `npm --verison >= 10.9.0`
+   ```
+   % node --version
+   v22.11.0
+   % npm --version
+   10.9.0
+   ```
 
 ## Installation
 
