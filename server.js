@@ -47,12 +47,16 @@ const downloadModel = async () => {
       },
       body: JSON.stringify({
         model: "mistral",
+        stream: false,
       }),
     });
 
     if (!response.ok) {
       throw new Error("Failed to download model");
     }
+
+    const pullResponseBody = await response.json();
+    console.log(`pullResponseBody=${pullResponseBody}`);
 
     const tag_response = await fetch("http://localhost:11434/api/tags");
     if (tag_response.ok) {
